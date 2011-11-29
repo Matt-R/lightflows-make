@@ -1,0 +1,166 @@
+name = Lightflows
+description = Lightflows installation profile.
+version = VERSION
+core = 7.x
+
+;STANDARD DEPENDENCIES
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+;;dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+;LIGHTFLOWS DEPENDENCIES
+
+;ADMIN TOOLS
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
+dependencies[] = migrate
+
+;USER INTERFACE
+dependencies[] = nodeformcols
+dependencies[] = entity
+dependencies[] = workbench
+
+;CONTENT CCK 
+;;dependencies[] = CCK
+dependencies[] = media_youtube
+dependencies[] = media_vimeo
+dependencies[] = conditional_fields
+dependencies[] = email
+dependencies[] = link
+dependencies[] = nodereference_url
+dependencies[] = nodereferrer
+dependencies[] = references
+dependencies[] = biblio
+
+;VIEWS
+dependencies[] = views
+dependencies[] = ctools
+dependencies[] = semanticviews
+dependencies[] = semantic_fields
+dependencies[] = views_slideshow
+dependencies[] = views_nivo_slider
+dependencies[] = draggableviews
+dependencies[] = views_bulk_operations
+dependencies[] = eva
+dependencies[] = views_php
+
+;PANELS
+dependencies[] = panels 
+
+;BLOCKS
+dependencies[] = boxes
+
+;NODE MODULES
+dependencies[] = exclude_node_title
+
+;DEVELOPMENT TOOLS
+dependencies[] = devel
+dependencies[] = devel_themer
+
+;FORMS
+dependencies[] = webform
+dependencies[] = compact_forms
+dependencies[] = captcha
+
+;NEWSLETTERS
+dependencies[] = mailchimp
+
+;TAXONOMY
+dependencies[] = taxonomy_manager
+;dependencies[] = tvi
+
+;FONTS
+dependencies[] =  fontyourface
+
+;PATHS AND TOKENS
+dependencies[] = token 
+dependencies[] = pathauto
+
+;IMAGES
+dependencies[] = imageapi
+dependencies[] = imagecache_actions
+dependencies[] = lightbox2
+dependencies[] = colorbox
+dependencies[] = fancybox
+
+;MEDIA 
+dependencies[] = media 
+
+;CALENDAR AND DATES
+dependencies[] = date 
+
+;META TAGS
+dependencies[] = metatag
+
+;FEATURES, CONTEXT AND DEVELOPMENT SEED
+dependencies[] = features
+dependencies[] = strongarm 
+dependencies[] = context
+dependencies[] = spaces 
+dependencies[] = og 
+;dependencies[] = of_views
+dependencies[] = purl
+dependencies[] = libraries
+
+;WYSIWYG & INPUT FORMATS
+dependencies[] = wysiwyg
+dependencies[] = transliteration
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+dependencies[] = filefield_sources
+dependencies[] = better_formats
+;dependencies[] = imce_tools
+
+;SHORTCODE
+dependencies[] = shortcode 
+
+;CK EDITOR
+;dependencies[] = ckeditor_styles
+
+;USERS AND PERMISSIONS
+dependencies[] = masquerade 
+;dependencies[] = config_perms
+dependencies[] = role_delegation
+;dependencies[] = overide_node_options
+dependencies[] = permission_select
+
+;MENUS
+dependencies[] = menu_block
+dependencies[] = quicktabs
+
+;SEO
+;dependencies[] = seo_checklist
+;dependencies[] = google_analytics
+dependencies[] = globalredirect
+dependencies[] = xmlsitemap
+dependencies[] = site_map
+
+;TESTING
+dependencies[] = selenium
+
+files[] = lightflows.profile
+
+;Information added by drupal.org packaging script on 2011-10-26
+version = "7.9"
+project = "drupal"
+datestamp = "1319660730"
+
