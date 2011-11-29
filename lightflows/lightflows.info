@@ -1,6 +1,6 @@
 name = Lightflows
 description = Lightflows installation profile.
-version = VERSION
+version = 7.x
 core = 7.x
 
 ;STANDARD DEPENDENCIES
