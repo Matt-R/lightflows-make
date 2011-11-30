@@ -201,6 +201,11 @@ projects[delta][subdir] = "contrib"
 projects[omega_tools][subdir] = "contrib"
 projects[omega][type] = "theme"
 
+;LIGHTFLOWS THEMES
+projects[lightflows_theme][type] = "theme"
+projects[lightflows_theme][download][type] = "git"
+projects[lightflows_theme][download][url]="git@github.com:Matt-R/lightflows_theme.git"
+
 ;SEO
 projects[seo_checklist][subdir] = "contrib"
 projects[google_analytics][subdir] = "contrib"
