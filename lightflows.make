@@ -5,6 +5,11 @@ api = 2
 
 projects[] = "drupal"
 
+;LIGHTFLOWS PROFILE
+projects[lightflows][type] = "profile"
+projects[lightflows][download][type] = "git"
+projects[lightflows][download][url]="git@github.com:Matt-R/lightflows.git"
+
 ;ADMIN TOOLS
 projects[admin_menu][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
@@ -205,4 +210,6 @@ projects[site_map][subdir] = "contrib"
 
 ;TESTING
 projects[selenium][subdir] = "contrib"
+
+
 
