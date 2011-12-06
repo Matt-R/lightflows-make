@@ -105,7 +105,7 @@ projects[date][subdir] = "contrib"
 ;META TAGS
 projects[metatag][subdir] = "contrib"
 
-;FEATURES, CONTEXT & DEVELOPMENT SEED STUFF (YOU GUYS ROCK!!)
+;FEATURES, CONTEXT & DEVELOPMENT SEED
 projects[features][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[context][subdir] = "contrib"
@@ -142,8 +142,10 @@ projects[lightflows_wysiwyg][type] = "module"
 projects[lightflows_wysiwyg][download][type] = "git"
 projects[lightflows_wysiwyg][download][url]="git@github.com:Matt-R/lightflows_wysiwyg.git"
 
-;SHORTCODE
+; Add a patch to make wysiwyg exportable.
+projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211-drush_make-7.x-2.1.patch"
 
+;SHORTCODE
 projects[shortcode][subdir] = "contrib"
 
 ;NEEDS UPGRADING FOR 7
