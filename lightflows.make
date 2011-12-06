@@ -136,6 +136,12 @@ projects[imce_tools][subdir] = "contrib"
 ;projects[wysiwyg_starter][download][type] = "git"
 ;projects[wysiwyg_starter][download][url]="git@github.com:lightflows/WYSIWYG-Starter.git"
 
+;LIGHTFLOWS WYSIWYG
+projects[lightflows_wysiwyg][subdir] = "features"
+projects[lightflows_wysiwyg][type] = "module"
+projects[lightflows_wysiwyg][download][type] = "git"
+projects[lightflows_wysiwyg][download][url]="git@github.com:Matt-R/lightflows_wysiwyg.git"
+
 ;SHORTCODE
 
 projects[shortcode][subdir] = "contrib"
