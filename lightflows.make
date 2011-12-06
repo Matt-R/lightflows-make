@@ -148,6 +148,12 @@ projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-6240
 ;SHORTCODE
 projects[shortcode][subdir] = "contrib"
 
+;LIGHTFLOWS SHORTCODE
+projects[lightflows_shortcode][subdir] = "custom"
+projects[lightflows_shortcode][type] = "module"
+projects[lightflows_shortcode][download][type] = "git"
+projects[lightflows_shortcode][download][url]="git@github.com:Matt-R/lightflows_shortcode.git"
+
 ;NEEDS UPGRADING FOR 7
 ;projects[shortcode][subdir] = "custom"
 ;projects[shortcode][type] = "module"
